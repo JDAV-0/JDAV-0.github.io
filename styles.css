@@ -20,3 +20,25 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .navbar-nav{
+    /* background-color: black; */
+    /*Removes the bullts from the list*/
+    list-style-type: none;
+    text-align: left;
+}
+/*Applies styles to list items within the nav-bar class*/
+.navbar-nav li {
+    font-size: 20px;
+    /*Put items on the same line*/
+    display: inline-block;
+    padding: 15px;
+}
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+}
+/*When the cursor is above the item*/
+.navbar-nav li a:hover {
+    color: rgb(20, 163, 27);
+}
