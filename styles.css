@@ -35,10 +35,10 @@ body {
     padding: 15px;
 }
 .navbar-nav li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 /*When the cursor is above the item*/
 .navbar-nav li a:hover {
-    color: rgb(20, 163, 27);
+  color: palevioletred;
 }
